@@ -1,0 +1,64 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+th, td{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.nav{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+.tdNav{
+    background-color:#91912bbd;
+    transition: 0.5s;
+}
+.tdNav:hover{
+    transition: 0.5s;
+    background-color: #8b8b16;
+}
+.tdNav a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.tdNav a:hover{
+    transition: 0.5s;
+    font-size: small;
+}
+.titulo{
+    background: radial-gradient(#ffff6600, #ffff66);
+}
+.tablaTitulo{
+    margin: 0 auto;
+    text-align: center;
+}
+.contenidoPadre{
+    width: 50%;
+    position: relative;
+}
+.contenidoHijo{
+    position: absolute;
+    left: 50%;
+}
+h6{
+    text-align: center;
+    background-color: #ffff66;
+    font-size: larger;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+iframe{
+    width: 560px; 
+    height: 315px;
+}

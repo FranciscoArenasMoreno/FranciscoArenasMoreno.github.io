@@ -1,0 +1,81 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+th, td{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.nav{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+.tdNav{
+    background-color: #00ccff;
+    transition: 0.5s;
+}
+.tdNav:hover{
+    transition: 0.5s;
+    background-color: #0081a1;
+}
+.tdNav a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.tdNav a:hover{
+    transition: 0.5s;
+    letter-spacing: 5px;
+}
+.titulo{
+    background: radial-gradient(#8ee8ff00, #4cdbff);
+}
+.tablaTitulo{
+    margin: 0 auto;
+    text-align: center;
+}
+.contenido{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    text-align: justify;
+}
+h3{
+    text-shadow: #4cdbff 5px 0 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+.jack{
+    height: 400px;
+}
+img:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px #4cdbff;
+}
+p{
+    font-size: large;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}

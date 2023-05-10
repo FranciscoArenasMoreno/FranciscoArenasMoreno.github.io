@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+th, td{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.nav{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+.tdNav{
+    background-color: rgb(255, 116, 116);
+    transition: 0.5s;
+}
+.tdNav:hover{
+    transition: 0.5s;
+    background-color: rgb(255, 58, 58);
+    transform: translateY(-20%);
+}
+.tdNav a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.tdNav a:hover{
+    transition: 0.5s;
+}
+.titulo{
+    background: radial-gradient(#ffb3b300, rgb(255, 116, 116));
+}
+.tablaTitulo{
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    padding-bottom: 10px;
+    font-size: large;
+}

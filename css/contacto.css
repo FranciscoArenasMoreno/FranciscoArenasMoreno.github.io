@@ -1,0 +1,103 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+nav{
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+th, td{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.nav{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+.tdNav{
+    background-color: #45af22b9;
+    transition: 0.5s;
+}
+.tdNav:hover{
+    transition: 0.5s;
+    background-color: #1a6800;
+    transform: translateY(20%);
+}
+.tdNav a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.tdNav a:hover{
+    transition: 0.5s;
+}
+.titulo{
+    background: radial-gradient(#c6ffb300, #88ff60b2);
+}
+.tablaTitulo{
+    margin: 0 auto;
+    text-align: center;
+}
+#span{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+fieldset{
+    background-color: rgba(175, 255, 71, 0.4);
+    border-radius:10px ;
+}
+input,textarea::placeholder{
+    font-style: italic;
+    font-size: 15px;
+}
+input,textarea,button,.importante{
+    transition: 0.5s;
+    border: none;
+    background: rgba(255, 219, 17, 0.4);
+    
+}
+button{
+    transform: translateX(22px);
+}
+button[type="reset"]:hover{
+    transition: 0.5s;
+    border: none;
+    background: rgba(255, 0, 0, 0.4);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+button[type="submit"]:hover{
+    transition: 0.5s;
+    border: none;
+    background: rgba(0, 255, 85, 0.7);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+input.importante:valid{
+    transition: 0.5s;
+    border: none;
+    background: rgba(0, 255, 85, 0.5);
+}
+input:not(:placeholder-shown):invalid{
+    transition: 0.5s;
+    background-color: rgba(255, 0, 0, 0.4);
+    border:none;
+}
+input:empty{
+    transition: 0.5s;
+    border: none;
+    background: rgba(255, 219, 17, 0.4);
+}
+input,textarea:focus{
+    outline: none;
+}
